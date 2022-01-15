@@ -1,0 +1,231 @@
+body {
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.container {
+    margin: 1rem 10rem;
+}
+/*.................. 
+navigation section 
+...................... */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+    padding: 1rem 1rem;
+
+}
+.company-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-bar a {
+    text-decoration: none;
+    margin: 1rem .5rem;
+    padding: 1rem 1rem;
+    color: black;
+    font-weight: bold;
+}
+.navigation .nav-bar {
+    /* margin-top: .6rem; */
+    align-items: center;
+    justify-content: center;
+}
+
+/*.................. 
+Header section 
+...................... */
+.prebook-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: .8rem 2.5rem;
+    background-color: #E02C6D;
+    border-radius: 1.5rem;
+}
+.prebook-btn i {
+    margin-left: 1rem;
+}
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
+}
+.headline-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.influencer-img {
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+    transition: width 2s, height 4s;
+}
+.influencer-img:hover {
+    width: 40rem;
+    height: 30rem;
+    transform: rotateX(10deg);
+}
+/*.................. 
+company subscription section 
+...................... */
+
+.companies-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 3rem;
+
+}
+ .company-logo {
+    margin: .5rem 2rem;
+}
+
+/*.................. 
+Product section 
+...................... */
+.product-list {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(34, 33, 33);
+    
+}
+.product-main-section {
+    display: grid;
+  grid-template-columns: 365px 365px 365px;
+  justify-content: center;
+    grid-gap: 2rem;
+    color: rgb(34, 33, 33);
+    grid-column: 4/4 ;
+}
+.product-detail {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px gray;
+
+}
+.product-detail .product-img {
+    align-items: center;
+}
+.item-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.item-price {
+    font-size: 1.5rem;
+    line-height: .2rem;
+}
+.item-flexiblity {
+    font-size: 1.2rem;
+    color: rgb(77, 74, 74);
+    line-height: .3rem;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star-half-alt {
+    color: #FB8200;
+}
+ .see-more {
+    font-weight: bold;
+    margin: 1rem 0rem 1rem 1rem;
+    text-align: right;
+    color: #E02C6D;
+    margin: 0 14rem 0 0;
+}
+.see-more a {
+    text-decoration: none;
+}
+/*.................. 
+Contact section 
+...................... */
+
+.contact-headline {
+    display: flex;
+    flex-direction: column;
+}
+.contact-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.contact-us {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: center;
+    grid-gap: 3rem;
+    margin: 3rem 2rem;
+}
+.contact-us-img {
+    width: 30rem;
+}
+/*.................. 
+Footer section 
+...................... */
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0826;
+    padding: 2rem;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-influencer {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: .3rem;
+}
+.footer-copyright {
+    font-size: .9rem; 
+    line-height: .1rem;
+}
+.social-media a {
+    margin: 1rem;
+    color: white;
+}
+
+/*.................. 
+Sing up form section 
+...................... */
+
+.contact-container {
+    background-color: #EDF0F5;
+    padding: 1% 3%;
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn-singup {
+    background-color: #E02C6D;
+    margin: 1rem 0rem;
+    padding: .5rem 4rem;
+    border: 2px solid #E02C6D;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+.text-pattern {
+    font-weight: bold;
+    color: #BEC3C9;
+}
+.text-input {
+    width: 40%;
+    height: 35px;
+    border-radius: 5px;
+    margin: .5rem 0rem;
+    font-size: 1.3rem;
+    border:none;
+    padding: 1% 3%;
+}
+.input-mobile-and-password {
+    width: 90%;
+}
